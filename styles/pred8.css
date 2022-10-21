@@ -4,13 +4,6 @@
   padding: 0px;
 }
 
-b{
-  display: inline-block;
-  width:100%;
-  padding: 15px;
-  border: 5px solid black;
-}
-
 body{
   background-color: bisque;
 }
@@ -20,11 +13,6 @@ header{
   background-color: aquamarine;
 }
 
-li{
-  display: inline-block;
-  padding: 10px;
-}
-
 main{
   height: 70vh;
 }
@@ -32,4 +20,60 @@ main{
 footer{
   height: 15vh;
   background-color: aquamarine;
+}
+
+h1{
+  color: brown;
+}
+
+h2{
+  color: rgba(211, 14, 30, 0.5);
+}
+
+h1, h2{
+  text-align: center;
+}
+
+h1{
+  color: purple;
+}
+
+li{
+  display: inline-block;
+  padding: 10px;
+}
+
+b{
+  display: inline-block;
+  width:100%;
+  padding: 15px;
+  border: 5px solid black;
+}
+
+[href]{
+  font-style: italic;
+}
+
+[href="#osimi"]{
+  font-size: 24px;
+}
+
+/* sadrzi rjec */
+[hhh~=vodi]{
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+/* pocinje sa rjeci popracenom - */
+[class|=header] {
+  background-color: yellow;
+}
+
+/* pocinje sa rjeci */
+[class^=header] {
+  transform: rotateY(180deg)
+}
+
+[hhh$=dinama]{
+  transform: rotatex(180deg)
 }
