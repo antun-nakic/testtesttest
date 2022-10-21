@@ -77,3 +77,17 @@ b{
 [hhh$=dinama]{
   transform: rotatex(180deg)
 }
+
+[hhh*="iv-di"]
+{
+  font-weight: 900;
+}
+
+b[id$="ma"]{
+  color:blue;
+}
+
+section.pavi{
+  text-decoration: underline;
+}
+
