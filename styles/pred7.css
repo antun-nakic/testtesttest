@@ -11,6 +11,7 @@ h2{
 /* Primjer klasnog selektora */
 .zabava{
   text-transform: uppercase;
+  color:red;
 }
 
 /* Primjer id selektora */
