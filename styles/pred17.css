@@ -1,22 +1,29 @@
-body {
-  font: 100% Helvetica, sans-serif;
-  color: #333;
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
 }
 
-.content-navigation {
-  border-color: #3bbfce;
-  color: #2ca2af;
+main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url("https://v1.padlet.pics/1/image.webp?t=c_limit%2Cdpr_1%2Ch_859%2Cw_1528&url=https%3A%2F%2Fpadlet-uploads.storage.googleapis.com%2F891001168%2Fe79960e75be653e107a57de088ea3859%2Fblur_clean.jpg");
+  background-size: cover;
 }
 
-.border {
-  padding: 9px;
-  margin: 9px;
-  border-color: #3bbfce;
-}
-
-.inverse {
-  background-color: #333;
+div {
+  padding: 8%;
+  flex-basis: 25%;
+  flex-shrink: 1;
+  flex-grow: 0;
+  font-size: 7vw;
   color: white;
+  border: 2px solid white;
+  background-color: rgba(0, 0, 255, 0.4);
+  text-align: center;
 }
 
 /*# sourceMappingURL=pred17.css.map */
