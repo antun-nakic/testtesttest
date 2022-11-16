@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,IAAI,CAAJ,MAAI;AAIJ,AAAA,mBAAmB,CAAC;EACpB,YAAY,EAHL,OAAO;EAId,KAAK,EAAE,OAAiB;CACvB;;AACD,AAAA,OAAO,CAAC;EACR,OAAO,EAAE,iBAAiB;EAC1B,MAAM,EAAE,iBAAiB;EACzB,YAAY,EATL,OAAO;CAUb;;AAED,AAAA,QAAQ,CAAC;EACP,KAAK,EAAE,KAAK;CACb",
+    "sources": [
+        "pred17.scss"
+    ],
+    "names": [],
+    "file": "pred17.css"
+}

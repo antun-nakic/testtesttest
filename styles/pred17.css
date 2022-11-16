@@ -1,0 +1,22 @@
+body {
+  font: 100% Helvetica, sans-serif;
+  color: #333;
+}
+
+.content-navigation {
+  border-color: #3bbfce;
+  color: #2ca2af;
+}
+
+.border {
+  padding: 9px;
+  margin: 9px;
+  border-color: #3bbfce;
+}
+
+.inverse {
+  background-color: #333;
+  color: white;
+}
+
+/*# sourceMappingURL=pred17.css.map */
