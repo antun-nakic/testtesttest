@@ -1,5 +1,5 @@
 @use 'partials17/_mixins';
-@use 'partials17/_base';
+@import 'partials17/_base';
 
 main{
   width: 100vw;
@@ -14,12 +14,13 @@ main{
 @for $i from 1 through 3 {
   $delay: calc($i*2 - 1);
   div:nth-child(#{$i}) {
+    background-color: rgba(map-get($colors, $i),0.4);
     @include mixins.animate(padaj#{$i},$delay)
   }
   @include mixins.keyframes(padaj#{$i}){
     0%
     {
-      top:-60vh;
+      
     }
     100%
     {
@@ -29,7 +30,7 @@ main{
 }
 
 div{
-  @include mixins.boxCommon($color:blue);
+  @include mixins.boxCommon();
 }
 
 

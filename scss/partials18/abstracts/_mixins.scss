@@ -1,4 +1,4 @@
-@mixin boxCommon() {
+@mixin animBoxCommon() {
   padding: 8%;
   position: relative;
   top: -80vh;
@@ -11,13 +11,6 @@
   text-align: center;
 }
 
-@mixin animate($name, $delay){
-  animation: $name 2s ease-in #{$delay}s forwards;
-}
-
-
-@mixin keyframes($name){
-  @keyframes #{$name} {
-    @content
-  }
+@mixin animate($delay){
+  animation: padaj $animSpeed ease-in #{$delay}s forwards;
 }

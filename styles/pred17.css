@@ -15,37 +15,31 @@ main {
 }
 
 div:nth-child(1) {
+  background-color: rgba(128, 128, 128, 0.4);
   animation: padaj1 2s ease-in 1s forwards;
 }
 
 @keyframes padaj1 {
-  0% {
-    top: -60vh;
-  }
   100% {
     top: 0px;
   }
 }
 div:nth-child(2) {
+  background-color: rgba(255, 0, 0, 0.4);
   animation: padaj2 2s ease-in 3s forwards;
 }
 
 @keyframes padaj2 {
-  0% {
-    top: -60vh;
-  }
   100% {
     top: 0px;
   }
 }
 div:nth-child(3) {
+  background-color: rgba(255, 255, 0, 0.4);
   animation: padaj3 2s ease-in 5s forwards;
 }
 
 @keyframes padaj3 {
-  0% {
-    top: -60vh;
-  }
   100% {
     top: 0px;
   }
@@ -53,14 +47,13 @@ div:nth-child(3) {
 div {
   padding: 8%;
   position: relative;
-  top: -70vh;
+  top: -80vh;
   flex-basis: 25%;
   flex-shrink: 1;
   flex-grow: 0;
   font-size: 7vw;
   color: white;
   border: 2px solid white;
-  background-color: rgba(0, 0, 255, 0.4);
   text-align: center;
 }
 
