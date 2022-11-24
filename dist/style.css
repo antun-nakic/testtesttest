@@ -513,6 +513,10 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.shrink-0 {
+  flex-shrink: 0;
+}
+
 .font-mono {
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
@@ -528,4 +532,10 @@ video {
 
 .underline {
   text-decoration-line: underline;
+}
+
+@media (min-width: 640px) {
+  .sm\:font-bold {
+    font-weight: 700;
+  }
 }
